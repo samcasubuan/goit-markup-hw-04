@@ -212,11 +212,27 @@ img {
   gap: 24px;
   padding-top: 10px;
 }
+
+/*Social media footer*/
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 10px;
+}
+
 /*Social Media*/
 .section-social-item {
   width: 40px;
   height: 40px;
 }
+
+/*Social media footer*/
+.section-media-item {
+  width: 40px;
+  height: 40px;
+}
+
 /*Social Media*/
 .section-social-link {
   width: 100%;
@@ -230,14 +246,37 @@ img {
   color: var(--whitecolor);
   background-color: var(--iriscolor);
 }
+
+/*Social media footer*/
+.social-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--whitecolor);
+  background-color: var(--iriscolor);
+}
+
 /*Social Media*/
-.sesction-social-icon {
+.section-social-icon {
   fill: currentColor;
 }
 /*Social Media*/
 .section-social-link:hover,
 .section-social-link:focus {
   background: rgb(3, 118, 134);
+}
+
+.section-social {
+  text-align: center;
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  padding-right: 115px;
 }
 
 /*Customers Icon*/
@@ -249,8 +288,8 @@ img {
 }
 /*Customers Icon*/
 .customers-item {
-  width: 40px;
-  height: 40px;
+  width: calc ((100% - 100px) / 6);
+  height: 90px;
 }
 /*Customers Icon*/
 .section-social-link {
@@ -274,6 +313,19 @@ img {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.section-customers-link {
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #8e8f99;
 }
 
 /*Checked*/
@@ -491,7 +543,6 @@ img {
 /*Checked*/
 .footer-description {
   color: var(--cloud, #f4f4fd);
-  padding-top: 17px;
 }
 
 /*Checked*/
