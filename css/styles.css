@@ -170,19 +170,11 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*Checked*/
+/*new*/
 .hero {
   padding: 200px 0;
   text-align: center;
-}
-
-/*Checked*/
-.bg-team {
   background-color: var(--cloud);
-}
-
-/*Checked*/
-.bg-hero {
   background: url(../images/hero-bg.jpg), var(--grey, rgba(46, 47, 66, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
@@ -205,12 +197,11 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
-/*Social Media*/
-.section-social-list {
+/*new*/
+.social-team .list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 10px;
 }
 
 /*Social media footer*/
@@ -221,10 +212,10 @@ img {
   padding-top: 10px;
 }
 
-/*Social Media*/
-.section-social-item {
-  width: 40px;
-  height: 40px;
+/*new*/
+.icon .item {
+  width: 10px;
+  height: 10px;
 }
 
 /*Social media footer*/
@@ -233,13 +224,13 @@ img {
   height: 40px;
 }
 
-/*Social Media*/
-.section-social-link {
-  width: 100%;
-  height: 100%;
+/*new*/
+.social-team .link {
+  display: flex;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 
-  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -261,8 +252,8 @@ img {
   background-color: var(--iriscolor);
 }
 
-/*Social Media*/
-.section-social-icon {
+/*new*/
+.social-team .icon {
   fill: currentColor;
 }
 /*Social Media*/
@@ -292,7 +283,7 @@ img {
   height: 90px;
 }
 /*Customers Icon*/
-.section-social-link {
+.link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -302,8 +293,8 @@ img {
   justify-content: center;
 }
 
-/*Customers Icon*/
-.section-customers {
+/*new*/
+.section {
   text-align: center;
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
@@ -315,7 +306,7 @@ img {
   text-transform: capitalize;
 }
 
-.section-customers-link {
+.link {
   width: 150px;
   height: 100px;
   border-radius: 4px;
@@ -469,7 +460,7 @@ img {
   margin-top: -30px; */
 }
 
-.benefits-svg-box {
+.benefits .icon {
   width: 264px;
   height: 112px;
   display: flex;
