@@ -136,7 +136,7 @@ img {
 .nav-menu .page.current,
 .contacts-menu .item:hover,
 .contacts-menu .item:focus {
-  color: var(--iriscolor);
+  color: var(--oceancolor);
 }
 
 .button.filter:hover,
@@ -146,6 +146,13 @@ img {
   color: var(--cloud);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.icon-item .link:hover,
+.icon-item .link:focus {
+  color: var(--whitecolor);
+  background: var(--oceancolor);
+  border-radius: 20px;
 }
 
 /*Checked*/
@@ -218,11 +225,6 @@ img {
   fill: currentColor;
   width: 16px;
   height: 16px;
-}
-
-.icon-item-link:hover,
-.icon-item-link:focus {
-  background: rgb(3, 118, 134);
 }
 
 /*Checked*/
@@ -521,7 +523,7 @@ img {
 
 .footer-description {
   color: var(--cloud, #f4f4fd);
-  text-align: justify;
+  text-align: left;
 }
 
 /*Checked*/
