@@ -1,4 +1,11 @@
 <svg width="104" height="56" viewBox="0 0 104 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="56" fill="#E5E5E5"/>
+<g id="Main Page" clip-path="url(#clip0_297015_303)">
+<rect width="1440" height="3200" transform="translate(-1148 -2696)" fill="white"/>
+<g id="Section 4">
+<g id="Customers logo">
+<g id="Client 6">
+<rect id="Rectangle 9" x="-31.5" y="-15.5" width="167" height="87" rx="3.5" stroke="#8E8F99"/>
 <g id="Logo">
 <g id="group">
 <g id="Object">
@@ -23,4 +30,13 @@
 </g>
 </g>
 </g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_297015_303">
+<rect width="1440" height="3200" fill="white" transform="translate(-1148 -2696)"/>
+</clipPath>
+</defs>
 </svg>
