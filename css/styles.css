@@ -136,12 +136,6 @@ img {
   color: var(--oceancolor);
 }
 
-.partners .item:hover,
-.partners .item:focus {
-  border-color: var(--oceancolor);
-  color: var(--oceancolor);
-}
-
 .partners .icon {
   fill: currentColor;
 }
@@ -173,7 +167,7 @@ img {
   width: 24px;
   height: 24px;
 }
-/*Checked*/
+
 .hero {
   padding: 200px 0;
   text-align: center;
@@ -207,7 +201,6 @@ img {
   padding-top: 10px;
 }
 
-/*Checked*/
 .social-team {
   padding-top: 10px;
   display: flex;
@@ -215,7 +208,6 @@ img {
   gap: 24px;
 }
 
-/*Checked*/
 .social-team .icon-item {
   width: 40px;
   height: 40px;
@@ -231,7 +223,6 @@ img {
   display: flex;
 }
 
-/*Checked*/
 .social-team .link {
   display: flex;
   width: 100%;
@@ -243,14 +234,12 @@ img {
   background-color: var(--iriscolor);
 }
 
-/*Checked*/
 .social-team .icon {
   fill: currentColor;
   width: 16px;
   height: 16px;
 }
 
-/*Checked*/
 .social-footer .link {
   display: flex;
   width: 100%;
@@ -262,7 +251,6 @@ img {
   background-color: var(--iriscolor);
 }
 
-/*Checked*/
 .svg .icon {
   fill: currentColor;
 }
@@ -312,7 +300,6 @@ img {
   margin-bottom: 10px;
 }
 
-/*Checked*/
 .team .position {
   color: var(--slate);
   font-size: 16px;
@@ -320,20 +307,17 @@ img {
   margin-bottom: 10px;
 }
 
-/*Checked*/
 .partners {
   display: flex;
   gap: 30px;
 }
 
-/*Checked*/
 .partners .item {
   width: calc((100% - 150px) / 6);
   height: 90px;
 }
 
-/*Checked*/
-.link-customer {
+.partners .link {
   display: flex;
   height: 100%;
   width: 100%;
@@ -344,8 +328,8 @@ img {
   color: var(--lightslate);
 }
 
-.link-customer:hover,
-.link-customer:focus {
+.partners .link:hover,
+.partners .link:focus {
   border-color: var(--oceancolor);
   color: var(--oceancolor);
   cursor: pointer;
@@ -437,7 +421,6 @@ img {
   margin-top: 30px;
 }
 
-/*Checked*/
 .benefits {
   display: flex;
   flex-wrap: wrap;
@@ -445,14 +428,12 @@ img {
   margin-top: -30px;
 }
 
-/*Checked*/
 .benefits .item {
   flex-basis: calc(100px / 4 + 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-/*Checked*/
 .benefits .icon {
   width: 264px;
   height: 112px;
@@ -464,7 +445,6 @@ img {
   background: var(--cloud, #f4f4fd);
 }
 
-/*Checked*/
 .benefits-svg-icon {
   width: 64px;
   height: 64px;
@@ -514,14 +494,12 @@ img {
   fill: inherit;
 }
 
-/*Checked*/
 .page-footer {
   padding: 60px 0 60px 60px;
   margin: 0 auto;
   background: var(--grey);
 }
 
-/*Checked*/
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -530,19 +508,16 @@ img {
   align-items: baseline;
 }
 
-/*Checked*/
 .footer-address {
   margin-top: 12px;
   margin-left: 25px;
 }
 
-/*Checked*/
 .footer-block {
   margin-top: 12px;
   margin-left: 123px;
 }
 
-/*Checked*/
 .social-footer {
   padding-top: 16px;
   display: flex;
@@ -550,7 +525,6 @@ img {
   gap: 10px;
 }
 
-/*Checked*/
 .icon-item {
   width: 40px;
   height: 40px;
@@ -570,7 +544,6 @@ img {
   padding-top: 17px;
 }
 
-/*Checked*/
 .studio-footer {
   color: var(--cloud, #f4f4fd);
 }
